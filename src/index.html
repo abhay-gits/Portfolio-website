@@ -8,28 +8,31 @@
     <title>Document</title>
 </head>
 
-<body class="bg-white dark:bg-black min-h-screen">
-    <div class="first flex justify-center items-center w-screen">
-        <div class="nav-bar flex justify-between text-white p-5 m-4 rounded-2xl items-center w-11/12">
+<body class="bg-white dark:bg-black min-h-screen w-screen overflow-x-hidden">
+    <div class="first flex justify-center items-center w-screen mt-3">
+        <div class="nav-bar flex justify-between text-white p-5 my-4 mx-7  rounded-2xl items-center w-2/3">
             <div class="flex items-center">
-            <img src="../images/Icons.png" class="rounded-full w-12 border border-white">
-            <p class="text-3xl ml-8 font-bold">Abhay's Portfolio</p>
+                <img src="../images/Icons.png" class="rounded-full w-12 border border-black">
             </div>
+            <p class="text-3xl ml-8">Abhay Rana</p>
             <ul class="flex">
-                <li>Home</li>
+                <!-- <li>Home</li>
                 <li>Projects</li>
                 <li>Contact</li>
-                <li>About</li>
+                <li>About</li> -->
+                <li><img class="invert cursor-pointer min-w-8" src="/images/darkmode.svg"></li>
             </ul>
         </div>
     </div>
     <!-- Header Section -->
-    <div class="header w-screen h-14">
-        <div class="left w-2/4">
-           
+    <div class="header w-screen h-auto flex">
+        <div class="left w-2/4 h-96 flex justify-center items-center">
+            <h2 class="text-white text-6xl p-16 ml-5">Hii, I'm <span>Abhay</span><br>
+                a Web Developer
+            </h2>
         </div>
-        <div class="right w-2/4">
-
+        <div class="right w-2/4 h-96 mt-5 flex justify-center items-center">
+            <img class="rounded-full w-96" src="/images/Icons.png">
         </div>
     </div>
 </body>
